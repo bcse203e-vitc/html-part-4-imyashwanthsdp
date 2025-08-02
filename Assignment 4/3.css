@@ -1,0 +1,51 @@
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border: 2px solid rgb(2, 27, 2);
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#title {
+  font-size: 32px;
+  text-decoration: underline;
+  color: #2c3e50;
+}
+
+
+.author {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+
+.content {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+
+.read-more-btn {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.read-more-btn:hover {
+  background-color: #3498db;
+  transform: scale(1.05);
+}

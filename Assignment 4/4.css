@@ -1,0 +1,36 @@
+
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  padding: 40px;
+}
+
+
+.box {
+  background-color: #fffacd;
+  margin: 20px;
+  border: 2px solid transparent;
+}
+
+
+.box:first-of-type {
+  background-color: #ffe4e1;
+  border: 2px dashed #ff7f7f;
+}
+
+
+.padded {
+  padding: 30px;
+  background-color: #e0ffff;
+  border: 2px solid #20b2aa;
+}
+
+
+.bordered {
+  border: 10px solid #4682b4;
+  background-color: #f5f5f5;
+  padding: 15px;
+  position: fixed;
+  left: 100px;
+}
